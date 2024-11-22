@@ -1,0 +1,14 @@
+/* body{ */
+    /* background-color: black; */
+    /* color: white; */
+/* } */
+.left{
+    width: 25vw;
+    /* height: 23px; */
+    background-color: aqua;
+}
+.right{
+    /* height: 23px; */
+    width: 75vw;
+    background-color: rebeccapurple;
+}

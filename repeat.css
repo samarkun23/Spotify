@@ -2,14 +2,12 @@
     margin: 3px;
     border: 2px solid red;
 }
-.logo-size{
-    font-size: 24px;
-}
-.color-black{
-    color: black;
-}
-.color-white{
+.bg-black{
+    background-color: black;
     color: white;
+}
+.bg-grey{
+    background-color: #202020;
 }
 .flex{
     display: flex;
@@ -19,4 +17,13 @@
 }
 .align-item{
     align-items: center;
+}
+.rounded{
+    border-radius: 5px ;
+}
+.margin{
+    margin: 5px;
+}
+.p-1{
+    padding: 7px;
 }

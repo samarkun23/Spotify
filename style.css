@@ -17,7 +17,9 @@ body{
     flex-direction: column;
 }
 .right{
+    margin: 10px 0;
     width: 75vw;
+    position: relative;
     /* background-color: rebeccapurple; */
 }
 /* .home{
@@ -97,3 +99,134 @@ body{
 
 /* right part starts  */
 
+.header{
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    background-color: #080808;
+}
+.header > *{
+    padding: 15px;
+}
+.header .nav {
+    margin: 4px 0;
+}
+.header .nav i{
+    padding-right: 8px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.buttons{
+    gap: 11px;
+    display: flex;
+}
+.right .header .buttons .signup{
+    /* font-size: 14px; */
+    font-size: 16px;
+    padding: 6px 13px;
+    border-radius: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.right .header .buttons .signup:hover{
+    font-size: 1.04rem;
+    color: #afaeae;
+    background-color: #141414;
+}
+.right .header .buttons .login{
+    /* font-size: 14px; */
+    font-size: 16px;
+    padding: 6px 13px;
+    border-radius: 18px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+.right .header .buttons .login:hover{
+    font-size: 1.04rem;
+    color: rgb(184, 182, 182);
+    background-color: black;
+}
+
+
+/* Right Playlist sections */
+
+.playlist{
+    padding: 15px;
+}
+
+.playlist .card{
+    /* border: solid 2px; */
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    background-color: #151515;
+    /* background-color: red; */
+}
+.card > *{
+    padding-top: 5px;
+}
+.card img{
+    width: 100%;
+    border-radius: 12px;
+    object-fit: contain;
+}
+.card h2{
+    padding: 5px 8px;
+}
+.card p{
+    padding: 5px 8px;
+}
+
+.cardcontainer{
+   display: flex;
+   gap: 10px;
+   flex-wrap: wrap;
+   margin: 15px 5px;
+   overflow-y: scroll;
+   max-height: 75vh;
+}
+
+
+/* playbutton */
+.play{
+    position: absolute;
+    top: 171px;
+    right: 22px;
+    background-color: #23c123;
+    border-radius: 210px;
+    width: 40px;
+    justify-content: center;
+    height: 33px;
+    align-items: center;
+    display: fek;
+    display: flex;
+    opacity: 0;
+    transition: all 0.4s ease-out;
+}
+.play i{
+    margin-bottom: 5px;
+    color: black;
+}
+
+
+/* playbar section */
+
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: green;
+    width: 100%;
+    padding: 12px;
+}
+
+.songbuttons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}

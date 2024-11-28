@@ -27,3 +27,29 @@
 .p-1{
     padding: 7px;
 }
+
+/* scrollbar csss  */
+
+/* Customize the scrollbar appearance */
+::-webkit-scrollbar {
+    width: 12px;  /* Set the width of the scrollbar */
+    height: 12px; /* Set the height for horizontal scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #444; /* Dark gray color for the thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Dark background for the scrollbar track */
+    border-radius: 6px; /* Rounded corners for the track */
+  }
+  
+  ::-webkit-scrollbar-button {
+    background-color: #222; /* Dark background for buttons */
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background-color: #222; /* Dark co
+  */ }  
